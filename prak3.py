@@ -10,3 +10,10 @@ def konversi_suhu(value, suhu):
         raise ValueError("Suhu tidak valid. Gunakan" / " 'C' untuk Celsius atau 'F' untuk Fahrenheit.")
 print(konversi_suhu(200, 'C'))
 print(konversi_suhu(38, 'F'))
+
+#no 2
+luas_lingkaran = lambda jejari: 3.14 *jejari ** 2
+
+n = float(input("Masukkan nilai jejari lingkaran: "))
+
+print("Luas lingkaran dengan jejari", n, "adalah", luas_lingkaran(n))
